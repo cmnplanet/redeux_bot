@@ -1,0 +1,38 @@
+header{
+  font-family:'Orbitron', sans-serif;
+  font-size: 36px;
+}
+
+#row{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-content: flex-start;
+   align-items: flex-start;
+
+}
+
+#bio-box{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7f6d72;
+  border-radius: 6px;
+  padding: 10px;
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  
+}
+
+#bio-box h3{
+  font-family:'Orbitron', sans-serif;
+  font-size: 20px;
+  color: #007fcc;
+}
+
+#bio-box p{
+  font-family:'Orbitron', sans-serif;
+  font-size: 12px;
+  color: #7f6d72;
+}
